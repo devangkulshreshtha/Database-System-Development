@@ -1,0 +1,10 @@
+1	Victoria Memorial	Kolkata,India	1921
+2	Salarjung Aquarium	Hyderabad,India	1951
+3	Government Aquarium	Chennai,India	1905
+4	Virasat-e-Khalsa	Anandpur,India	2011
+5	Parliament Aquarium	New Delhi,India	2006
+6	Bharat  Aquarium	Varanasi,India	2000
+7	Taraparova Aquarium	Mumbai,India	1950
+8	Taj Mahal Aquarium	Agra , India	1996
+9	Dhindhori Aquarium	Dhindhori,India	1994
+10	Safdarjang Aquarium	Gurugram,India	1800

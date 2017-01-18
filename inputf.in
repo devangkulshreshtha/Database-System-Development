@@ -1,0 +1,22 @@
+CREATE Student {Roll,Name,Contact,Age} {Roll,Age}
+CREATE Employee {EmpID,Name,Contact,Age} {EmpID,Name}
+INSERT Student {14075021,Devang,9621633895,20}
+INSERT Student {14075020,Deepak,8449065782,20}
+INSERT Student {14075019,Dasarapu,8449065782,21}
+INSERT Student {14075022,Dewanshu,8649065782,18}
+INSERT Student {14075009,Arpit,9621633887,21}
+INSERT Employee {39,Meera,9456462693,40}
+INSERT Employee {40,Jitendar,7679167693,33}
+INSERT Employee {30,Ramanand,9723457693,32}
+INSERT Employee {46,Laura,987653153,52}
+INSERT Employee {21,Sophie,7890654387,16}
+SELECT Student {} {Age,Name}
+SELECT Student {Age:=:20,Ro23ll:=:14075020} {Roll,Age}
+SELECT [SELECT [SELECT Employee {} {EmpID,Name,Contact,Age}] {EmpID:>:39} {Contact,Age,Name}] {} {Age}
+PROJECT [SELECT Student {} {Age,Name,Contact}] {Age,Name}
+INTERSECT [SELECT Student {} {Roll,Contact,Age}] [SELECT Student {} {Roll,Contact,Age}]
+UNION [SELECT Student {} {Contact,Age}] [SELECT Employee {} {Contact,Age}]
+CROSS Student Employee
+SELECT [CROSS Student Employee] {Roll:<=:EmpID} {Student.Name,Student.Age,Employee.Age}
+SELECT [RENAME Student {NewStudent} {Name:Naam,Contact:Telephone}] {} {Naam,Telephone}
+show tables

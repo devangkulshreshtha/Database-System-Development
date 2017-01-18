@@ -1,0 +1,5 @@
+1	Victoria Memorial	Kolkata India	1921	
+2	Salarjung Museum	Hyderabad India	1951
+3	Government Museum	Chennai India	1905
+4	Virasat-e-Khalsa	Anandpur India	2011
+5	Parliament Museum	New Delhi India	2006	

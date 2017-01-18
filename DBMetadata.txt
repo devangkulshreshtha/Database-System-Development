@@ -1,0 +1,4 @@
+Museum	Museum_ID,Name,Location,Year_estabilished	Museum_ID
+Aquarium	ID,Name,Location,Year_built	ID
+Student	Roll,Name,Contact,Age	Roll,Age
+Employee	EmpID,Name,Contact,Age	EmpID,Name
